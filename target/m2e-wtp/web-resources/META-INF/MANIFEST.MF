@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: CRUD_Assignment
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: as
+Implementation-Vendor-Id: CRUD_Assignment
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/CRUD_Assignm
+ ent/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

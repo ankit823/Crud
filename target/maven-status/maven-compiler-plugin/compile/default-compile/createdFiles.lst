@@ -1,0 +1,7 @@
+Crud\Service\UserService.class
+Crud\model\User.class
+Crud\Service\UserServiceImpl.class
+Crud\model\CrudResponse.class
+Crud\Dao\UserDao.class
+Crud\Dao\UserDaoImpl.class
+Crud\Controller\CrudController.class
