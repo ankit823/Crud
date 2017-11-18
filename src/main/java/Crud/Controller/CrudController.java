@@ -27,7 +27,7 @@ public class CrudController {
 	     return userModel.id;
 	  }
 	  
-	  @RequestMapping(value="/update", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
+	  @RequestMapping(value="/update?id", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
 	  @ResponseBody
 	  public void update(@RequestBody User jsonString) {
 
