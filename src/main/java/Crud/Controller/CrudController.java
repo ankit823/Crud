@@ -27,8 +27,9 @@ public class CrudController {
 	     return userModel.id;
 	  }
 	  
-	  @RequestMapping(value="/update?id", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
+	  @RequestMapping(value="/update?id=?", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
 	  @ResponseBody
+	  
 	  public void update(@RequestBody User jsonString) {
 
 		  user= new UserServiceImpl();
@@ -37,7 +38,7 @@ public class CrudController {
 	  }
 	 	  
 	
-	  @RequestMapping(value="/delete", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
+	  @RequestMapping(value="/delete?id=?", method = RequestMethod.POST, produces = "application/json", consumes = "application/json")
 	  @ResponseBody
 	  public void delete(@RequestBody User jsonString) {
 
